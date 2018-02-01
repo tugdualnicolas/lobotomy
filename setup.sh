@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Upgrade PIP
-pip2.7 install --upgrade pip
+pip install --upgrade pip
 
 # Install requirements
-pip2.7 install -r requirements
+pip install -r requirements
 
 # Download Androguard
 git clone https://github.com/androguard/androguard.git
